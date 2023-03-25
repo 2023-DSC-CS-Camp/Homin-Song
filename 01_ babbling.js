@@ -6,4 +6,4 @@ function solution(babbling){
 
 console.log(solution(["ayaye", "uuuma", "ye", "yemawoo", "ayaa"]));
 
-// 테스트 케이스 17번 오류 발생
+// 테스트 케이스 17번 오류 발생   
