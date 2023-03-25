@@ -26,7 +26,7 @@ def dfs(graph, start_point):
             print(vertex, end=" ")
             stack.extend(sorted(list(set(graph[vertex]) - visited), reverse=True))
             
-# bfs 알고리즘 
+# bfs 알고리즘
 def bfs(graph, start_point):
     visited = set()
     queue = [start_point]
